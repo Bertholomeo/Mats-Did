@@ -37,7 +37,7 @@ const CreateUser = () => {
                 .then(function(response){
                     setSubmitting(false)
                     console.log(response)
-                    history.push('/')
+                    history.push('/login')
                 })
                 .catch(function(error){
                     console.log(error)

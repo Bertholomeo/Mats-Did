@@ -1,9 +1,9 @@
 import React, {useEffect, useState}  from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
-import layout from '../pages/Login/components/layout'
 
-import Userbtn from '../pages/Login/components/Userbtn';
+import layout from '../components/layout'
+import Userbtn from '../components/Userbtn';
 
 const AllUser = () => {
     const [users,setUsers] = useState([])

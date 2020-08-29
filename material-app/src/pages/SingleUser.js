@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {useParams, useHistory, Link} from 'react-router-dom';
 import axios from 'axios';
 
-import layout from '../pages/Login/components/layout'
+import layout from '../components/layout'
 
 const SingleUser = (props) => {
     const [user,setUser] = useState({});

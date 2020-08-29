@@ -3,9 +3,8 @@ import styled from 'styled-components';
 import axios from 'axios';
 import {NavLink} from 'react-router-dom';
 
-import layout from '../pages/Login/components/layout'
-
-import MaterialBtn from '../pages/Login/components/Materialbtn';
+import layout from '../components/layout'
+import MaterialBtn from '../components/Materialbtn';
 
 const All = () => {
     const [materiales,setMateriales] = useState([])

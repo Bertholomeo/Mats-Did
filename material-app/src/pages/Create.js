@@ -4,7 +4,8 @@ import * as Yup from 'yup'
 import {useHistory} from 'react-router-dom'
 import axios from 'axios'
 import styled from 'styled-components'
-import layout from '../pages/Login/components/layout'
+
+import layout from '../components/layout'
 
 const Create = () => {
     const history =  useHistory();

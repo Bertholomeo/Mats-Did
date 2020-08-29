@@ -4,7 +4,8 @@ import * as Yup from 'yup'
 import { useHistory, useParams } from 'react-router-dom'
 import styled from 'styled-components'
 import axios from 'axios'
-import layout from '../pages/Login/components/layout'
+
+import layout from '../components/layout'
 
 const UpdateUser = () => {
     const [user,setUser] = useState({});
