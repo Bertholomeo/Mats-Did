@@ -26,7 +26,10 @@ const All = () => {
     },[])
     return(
         <AllWrap>
-             <NavLink to="/material/nuevo-material">Nuevo material</NavLink>
+            <MaterialNew>
+                <div className="vacio"></div>
+                <NavLink to="/material/nuevo-material" className="nuevoMat">Nuevo material</NavLink>
+            </MaterialNew>
             {materiales.map(item=>{
                 return(
                     
@@ -38,10 +41,21 @@ const All = () => {
 }
 
 const AllWrap = styled.section`
-    padding-top: 2em;
+    padding: 2em;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+`
+const MaterialNew = styled.section`
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    .vacio{
+        background: blue;
+        width: 90%;
+        height: auto;
+    }
 `
 
 export default layout (All);

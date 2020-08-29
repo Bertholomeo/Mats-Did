@@ -59,9 +59,42 @@ const Login = () => {
                     let account = JSON.stringify(ac);
                     localStorage.setItem('account', account);
                     setIsLogin(true);
-                }else{
-                    setIsLogin(false);
-                    setHasError(true);
+                }else  if(param.user === 'gis' && param.password === '123456'){
+                    const { user, password } = param;
+                    let ac = { user,password};
+                    let account = JSON.stringify(ac);
+                    localStorage.setItem('account', account);
+                    setIsLogin(true);
+                }else  if(param.user === 'david' && param.password === '123456'){
+                    const { user, password } = param;
+                    let ac = { user,password};
+                    let account = JSON.stringify(ac);
+                    localStorage.setItem('account', account);
+                    setIsLogin(true);
+                } else  if(param.user === 'celeste' && param.password === '123456'){
+                    const { user, password } = param;
+                    let ac = { user,password};
+                    let account = JSON.stringify(ac);
+                    localStorage.setItem('account', account);
+                    setIsLogin(true);
+                } else  if(param.user === 'guillermo' && param.password === '123456'){
+                    const { user, password } = param;
+                    let ac = { user,password};
+                    let account = JSON.stringify(ac);
+                    localStorage.setItem('account', account);
+                    setIsLogin(true);
+                } else  if(param.user === 'geraldine' && param.password === '123456'){
+                    const { user, password } = param;
+                    let ac = { user,password};
+                    let account = JSON.stringify(ac);
+                    localStorage.setItem('account', account);
+                    setIsLogin(true);
+                } else  if(param.user === 'carlos' && param.password === '123456'){
+                    const { user, password } = param;
+                    let ac = { user,password};
+                    let account = JSON.stringify(ac);
+                    localStorage.setItem('account', account);
+                    setIsLogin(true);
                 }
             }else{
                 setIsLogin(false);
