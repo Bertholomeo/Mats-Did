@@ -8,7 +8,7 @@ const Materialbtn = (props) => {
         <MaterialWrap>
             <h2>{props.title}</h2>
             <img src="https://dummyimage.com/600x800/000000/ffffff&text=Material" alt="Material"></img>   
-            <div classname="cuadrobajo"></div>        
+            <div className="cuadrobajo"></div>        
             <Btnredondo title="ver mas" to={`material/single/${props.id}`}/>            
         </MaterialWrap>
     )
